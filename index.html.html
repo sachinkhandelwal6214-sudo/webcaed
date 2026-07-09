@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Animation</title>
+
+    <link rel="stylesheet" href="sachin.css">
+</head>
+<body>
+
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+
+    <div class="card">
+
+    <div class="ring"></div>
+
+    <h2 class="title">LOGIN</h2>
+
+  <form onsubmit="login(event)">
+
+    <div class="input-box">
+        <input type="text" id="username" required>
+        <label>Username</label>
+    </div>
+
+    <div class="input-box">
+        <input type="password" id="password" required>
+        <label>Password</label>
+    </div>
+
+    <button type="submit">LOGIN</button>
+
+</form>
+
+<script>
+function login(event){
+    event.preventDefault();
+
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+
+    if(username==="admin" && password==="621485"){
+        alert("Login Successful");
+        window.location.href="sachin.html";
+    }else{
+        alert("Wrong Username or Password");
+    }
+}
+</script></body>
+</html>
+    <p class="credit">Made by Sachin & Creative Team</p>
+
+</div>
+        <div class="ring"></div>
+         <h1>WELCOME</h1>
+       
+    </div>
+
+</body>
+</html>
